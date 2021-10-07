@@ -2,6 +2,7 @@ package hello.hellospring;
 
 import hello.hellospring.domain.*;
 import hello.hellospring.service.MemberService;
+import hello.hellospring.service.TimeTraceAop;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
